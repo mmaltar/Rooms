@@ -1,0 +1,361 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.headerDiv{
+    /*border-bottom: 1px solid #dddddd;*/
+    height: 60px;
+    background-color: #f1f1f1;
+}
+.headerDiv ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footerDiv{
+    background-color: #f1f1f1;
+}
+
+.contentDiv{
+    width: 100%;
+    /*border: 1px solid black;*/
+    background-color: white;
+    min-height: 400px;
+}
+
+#contViewTypes{
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f1f1f1;;
+}
+
+#contViewControllers{
+    float: left;
+    width:  200px;
+    height: 500px;
+    background-color: white;
+    overflow: hidden;
+    overflow-y:auto;
+}
+
+#contView{
+    height: 500px;
+    margin-left: 160px;
+    background-color: white;
+    /*float: left;*/
+    /*overflow-y: auto;*/
+    /*width: 100%*/
+}
+
+.contViewHeader{
+    background-color: white;
+    height: 54px;
+    /*width: 98%;*/
+    /*margin: auto*/
+}
+
+.contData{
+    height: 93%;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.contTable{
+    background-color: white;
+    width: 98%;
+    min-height: 200px;
+}
+
+.contViewTable{
+    background-color: white;
+    width: 98%;
+}
+
+
+#mainTableHeader{
+    width: 98%;
+    border-collapse: collapse;
+}
+
+
+#mainTableHeader td{
+    /*width: 12%;*/
+    height: 26px;
+    /*border-bottom-color: black;*/
+    text-align: center;
+    font-size: 0.9em;
+    font-family: serif;
+}
+#mainTableHeader td:first-child{
+    width: 50px;
+    border: solid 1px white;
+}
+
+#mainTableHeader td.all_day{
+    height: 15px;
+    border: solid 1px #dddddd;
+
+}
+#mainTableHeader td.all_day:first-child{
+    height: 15px;
+    border: solid 1px white;
+    border-right-color: #dddddd;
+    /*background-color: red;*/
+}
+
+#mainTableData{
+    width: 98%;
+    border-collapse: collapse;
+}
+
+#mainTableData td{
+    /*width: 12%;*/
+    height: 20px;
+    border: solid 1px #dddddd;
+
+}
+
+
+#mainTableData td:first-child{
+    width: 50px;
+}
+
+div.ui-datepicker{
+ font-size:10px;
+}
+
+div.ui-button{
+ font-size:12px;
+}
+
+#datepicker{
+    margin: 30px 0 0 10px;
+
+}
+
+.specialDate{
+    background-color: blue;
+}
+
+#currentWeekButton{
+    margin-left: 200px;
+}
+
+/*.ui-datepicker-current-day .ui-state-active { background: blue; color: white }
+
+.ui-state-highlight{
+    background-color: olivedrab;
+
+
+    }*/
+
+.login {
+    	height:140px;
+    	width:300px;
+    	margin:auto;
+    	border:1px #CCC solid;
+    	padding:10px;
+    }
+
+.login input {
+    	padding:5px;
+    	margin:5px
+     }
+
+.register {
+         	height:185px;
+         	width:300px;
+         	margin:auto;
+         	border:1px #CCC solid;
+         	padding:10px;
+         }
+
+.register input {
+         	padding:5px;
+         	margin:5px
+          }
+
+.headerDiv ul, .headerDiv li {
+list-style-type:none;
+display:inline;
+margin:0px 10px;
+}
+
+.headerDiv a:link, .headerDiv a:visited, .headerDiv a:active {
+font-size:15px;
+color:#5D7393;
+border-bottom:3px #5D7393 solid;
+padding:5px 5px 5px 5px;
+text-decoration: none;
+}
+
+.headerDiv a:hover {
+border-bottom:5px solid #F9F044;
+color:#000;
+}
+
+.headerDiv .logout {
+  margin: 5px;
+  float:right;
+}
+
+
+#rangeInfo{
+    display: inline-block;
+    margin-left: 26px;
+    /*padding-top: 10px;*/
+}
+
+#roomsList{
+    /*background-color: lightgrey;*/
+    width: 175px;
+    height: 59%;
+    margin: 10px 0 0 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid #f1f1f1;
+}
+
+#roomsList label{
+    margin-bottom: 2px;
+}
+
+#mainTableData td.td_reserved{
+    background-color: #9FC6E7;
+    border-bottom-color:#9FC6E7;
+    border-top-color:#9FC6E7;
+}
+#mainTableData td.td_reserved_first{
+    border-top-color:#f1f1f1;
+}
+#mainTableData td.td_reserved_last{
+    border-bottom-color:#f1f1f1;
+}
+
+#newReservationPopup.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(255,255,255, 0.7);
+  /*opacity: 0.5;*/
+}
+
+#newReservationPopup .modal-content {
+  position: relative;
+  background-color: rgba(255,255,255,1);
+  margin: auto;
+  padding: 0;
+  width: 400px;
+  height:  500px;
+  /*border: 2px solid black;*/
+  box-shadow: 0px  1px 9px 0px grey;
+  /*opacity: 1;*/
+  border-radius: 3px;
+  padding: 5px
+}
+
+#newReservationPopup .reservationData{
+    height: 380px;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+
+#editReservationPopup.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(255,255,255, 0.7);
+  /*opacity: 0.5;*/
+}
+
+#editReservationPopup .modal-content {
+  position: relative;
+  background-color: rgba(255,255,255,1);
+  margin: auto;
+  padding: 0;
+  width: 400px;
+  height:  500px;
+  /*border: 2px solid black;*/
+  box-shadow: 0px  1px 9px 0px grey;
+  /*opacity: 1;*/
+  border-radius: 3px;
+  padding: 5px
+}
+
+#editReservationPopup .reservationData{
+    height: 380px;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+#selectRoomInfo.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(255,255,255, 0);
+  /*opacity: 0.5;*/
+}
+
+#selectRoomInfo .modal-content {
+  position: relative;
+  background-color: rgba(255,255,255,1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+
+  padding: 0;
+  width: 300px;
+  height:  150px;
+  /*border: 2px solid black;*/
+  box-shadow: 0px  1px 9px 0px grey;
+  /*opacity: 1;*/
+  border-radius: 3px;
+  padding: 5px
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
